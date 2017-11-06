@@ -3,7 +3,6 @@ import React from 'react';
 
 export default class Keypad extends React.Component {
   handleKeyUp(ev) {
-    ev.preventDefault()
     console.log("Entering password...")
   }
 

@@ -3,12 +3,10 @@ import React from 'react';
 
 export default class EyesOnMe extends React.Component {
   handleOnFocus(ev) {
-    ev.preventDefault()
     console.log('Good!')
   }
 
   handleOnBlur(ev) {
-    ev.preventDefault()
     console.log('Hey! Eyes on me!')
   }
 
